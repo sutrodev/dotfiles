@@ -5,9 +5,13 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 let g:vundle_default_git_proto = 'git'
 
+let g:Powerline_symbols = 'unicode'
+let g:Powerline_colorscheme = 'solarized256'
+
 "Bundles
 Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'Lokaltog/vim-powerline'
 
 " Solarized!
 syntax enable
@@ -27,19 +31,19 @@ set shiftwidth=4
 set autoindent
 
 " Spit and Polish 
-"set encoding=utf-8
-"set scrolloff=3
-"set showmode
-"set showcmd
-"set hidden
-"set wildmenu
-"set wildmode=list:longest
-"set visualbell
-"set cursorline
-"set ttyfast
-"set ruler
-"set backspace=indent,eol,start
-"set laststatus=2
+set encoding=utf-8
+set scrolloff=3
+set showmode
+set showcmd
+set hidden
+set wildmenu
+set wildmode=list:longest
+set visualbell
+set cursorline
+set ttyfast
+set ruler
+set backspace=indent,eol,start
+set laststatus=2
 
 " Searching
 "set hlsearch
