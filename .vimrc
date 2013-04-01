@@ -6,13 +6,11 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 let g:vundle_default_git_proto = 'git'
 
-let g:Powerline_symbols = 'unicode'
-let g:Powerline_colorscheme = 'solarized256'
-
 "Bundles
 Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'Lokaltog/vim-powerline'
+
+set rtp+=/Users/jon/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim
 
 " Solarized!
 syntax enable
