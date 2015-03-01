@@ -1,3 +1,4 @@
+"Basic settings for all humans
 set nocompatible
 filetype on
 filetype off
