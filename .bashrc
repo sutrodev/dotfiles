@@ -1,6 +1,7 @@
 
 # Alii
 alias ll='ls -lh'
+alias killcisco='sudo /opt/cisco/anyconnect/bin/websecurity_uninstall.sh'
 
 # Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
