@@ -1,3 +1,3 @@
 dotfiles
 ========
-some magic might happen here at some point. mebbe.
+a place to keep all the things that start with "."
