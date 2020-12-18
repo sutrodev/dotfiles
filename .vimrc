@@ -1,4 +1,4 @@
-"Basic settings for all humans and aliens
+"Basic settings for all humans and aliens and cats
 set nocompatible
 filetype on
 filetype off
