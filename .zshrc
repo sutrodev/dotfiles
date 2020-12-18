@@ -8,7 +8,7 @@ export ZSH="/Users/jon/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="random"
+# ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -97,11 +97,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias python=/usr/local/bin/python3
-alias pip=/usr/local/bin/pip3
+# alias python=/usr/local/bin/python3
+# alias pip=/usr/local/bin/pip3
 
 # Display MotD
-fortune | cowsay | lolcat
+# fortune | cowsay | lolcat
 
 # Powerline
-. /usr/local/lib/python3.9/site-packages/powerline/bindings/zsh/powerline.zsh
+# . /usr/local/lib/python3.9/site-packages/powerline/bindings/zsh/powerline.zsh
