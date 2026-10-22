@@ -1,0 +1,36 @@
+" A quiet, capable Vim.
+set nocompatible
+syntax on
+filetype plugin indent on
+
+" Appearance
+set number
+set ruler
+set showcmd
+set laststatus=2
+set cursorline
+set termguicolors
+
+" Editing
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set autoindent
+set smartindent
+set backspace=indent,eol,start
+
+" Searching
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+" Behavior
+set hidden
+set mouse=a
+set wildmenu
+set scrolloff=5
+
+" Keep temporary files out of the working directory
+set undofile
