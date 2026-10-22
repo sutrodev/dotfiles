@@ -1,0 +1,22 @@
+# Shell: preserve Fish's standard prompt editing and existing configuration.
+command = /opt/homebrew/bin/fish
+shell-integration = detect
+
+# Native macOS font, readable size, and a little breathing room.
+font-family = Berkeley Mono 
+font-size = 14
+font-feature = -calt
+window-padding-x = 8
+window-padding-y = 8
+mouse-hide-while-typing = true
+
+# Left Option sends Alt to Fish/Vim; right Option retains macOS character input.
+macos-option-as-alt = left
+
+# Keep native TERM locally; adapt to remote hosts through shell integration.
+shell-integration-features = ssh-env,ssh-terminfo
+
+# Keep Ghostty's macOS tab/split shortcuts and Ctrl keys for terminal programs.
+
+# Solarized Theming
+theme = light:iTerm2 Solarized Light,dark:iTerm2 Solarized Dark
