@@ -34,3 +34,6 @@ set scrolloff=5
 
 " Keep temporary files out of the working directory
 set undofile
+
+" Solarized
+colorscheme solarized
